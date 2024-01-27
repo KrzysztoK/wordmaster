@@ -1,0 +1,116 @@
+table{
+    border:3px solid black;
+    border-collapse: collapse;
+    
+    
+
+}
+td{
+    border:1px solid black;
+}
+tr{
+    border:1px solid black;
+}
+input{
+    border: 0;
+}
+.white{
+    color: white;
+}
+.scrolltab{
+    width: calc(100vw - 100px);
+    height: calc(100vh - 100px);
+    overflow: scroll;
+    margin: 90px auto 30px auto;
+}
+#button1{
+    color: black;
+    background-color: orange;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    top: 80px;
+    left: 43px;
+    position: fixed;
+    
+
+
+
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,153,1) 35%, rgba(0,212,255,1) 100%);
+}
+input:hover{
+    color: black;
+}
+#button2{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: fixed;
+    top: 7px;
+    right: 10px;
+}
+#button3{
+    color: black;
+    background-color: green;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+
+
+}
+.modal{
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(96, 225, 96);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    display: none;
+
+
+    
+}
+.redcross{
+    background-color: transparent;
+    border: none;
+    color: rgb(228, 33, 26);
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+.checkbutton{
+    color: black;
+    background-color: yellow;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    position: fixed;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
+
+
+

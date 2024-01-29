@@ -82,6 +82,7 @@ function checkAnswers(){
             break
     
         }
+        
     }
     const indexToCheck = emptyIndex - 1
     const indexToBeChecked = emptyIndex - 3
